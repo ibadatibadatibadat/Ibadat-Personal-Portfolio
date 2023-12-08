@@ -1,0 +1,26 @@
+.main {
+  background-color: rgb(24, 23, 23);
+  color: rgb(112, 103, 103);
+  height: 65vh;
+}
+
+.div1 {
+  width: 45%;
+  /* margin-left: 40px;
+  padding: 40px; */
+}
+.div2 {
+  width: 45%;
+  /* height: 30vh; */
+  position: absolute;
+  top: 8%;
+  left: 55%;
+}
+.line {
+  border-left: 2px solid rgb(131, 168, 131);
+  height: 350px;
+  position: absolute;
+  left: 49%;
+  margin-left: -3px;
+  top: 12%;
+}
