@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(27, 27, 27);
+  color: aliceblue;
+}
+.navbar-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  background-color: rgb(39, 39, 39);
+  padding-left: 55px;
+  height: 50px;
+  align-items: center;
+}
+.navbar-item {
+  cursor: pointer;
+  list-style: none;
+  font-size: 25px;
+  font-style: oblique;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.item {
+  color: rgb(196, 108, 108);
+  text-decoration: none;
+}
+.item:hover {
+  color: rgb(113, 113, 228);
+  transition: ease 0.5s;
+}
