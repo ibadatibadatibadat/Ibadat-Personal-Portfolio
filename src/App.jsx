@@ -6,12 +6,12 @@ import Services from "./Components/Services";
 import Experience from "./Components/Experience";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
-
+import Footer from "./Components/Footer";
 function App() {
   return (
     <>
       <BrowserRouter>
-      <Navbar />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
@@ -20,9 +20,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
 }
-
 export default App;
