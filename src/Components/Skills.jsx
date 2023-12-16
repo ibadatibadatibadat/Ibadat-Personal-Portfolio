@@ -1,12 +1,17 @@
 import React from "react";
-
 import "../styles/services.css";
+
 const Skills = () => {
   return (
     <div className="main">
       <div className="card">
-        <img src="./vite.svg" alt="card-photo" className="card-cover" />
+        {/* <img src="./vite.svg" alt="card-photo" className="card-cover" /> */}
         <div className="card-item">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <h3>Web Development</h3>
           <p className="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
@@ -17,8 +22,13 @@ const Skills = () => {
         </div>
       </div>
       <div className="card">
-        <img src="./vite.svg" alt="card-photo" className="card-cover" />
+        {/* <img src="./vite.svg" alt="card-photo" className="card-cover" /> */}
         <div className="card-item">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <h3>Web Development</h3>
           <p className="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
@@ -29,8 +39,13 @@ const Skills = () => {
         </div>
       </div>
       <div className="card">
-        <img src="./vite.svg" alt="card-photo" className="card-cover" />
+        {/* <img src="./vite.svg" alt="card-photo" className="card-cover" /> */}
         <div className="card-item">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <h3>Web Development</h3>
           <p className="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
