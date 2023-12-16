@@ -25,11 +25,7 @@ const Navbar = () => {
             Experience
           </Link>
         </li>
-        <li className="navbar-item">
-          <Link className="item" to="/about">
-            About
-          </Link>
-        </li>
+
         <li className="navbar-item">
           <Link className="item" to="/contact">
             Contact
